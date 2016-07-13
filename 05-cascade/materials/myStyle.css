@@ -1,0 +1,54 @@
+body{
+		max-width:800px;
+		margin:0 auto;	
+		position:relative;					
+	}
+	
+	h1{
+		background: #cde6ff url('images/bg_body.png') left top no-repeat;
+		background-size: 100%;
+		font: 700 3em/2em Verdana;
+		color: rosybrown;
+		padding-top: 90px;
+		padding-left:40px;		
+	}		
+	h2{
+		font: 700 2em/1em serif;
+	}
+	.main{
+		background-color: #cde6ff;
+		padding: 0 210px 0 40px;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.main > p:first-of-type{
+		font: 1em/2em Verdana;
+		color: blue;				
+	}
+	.main h2{		
+		color:burlywood;
+		border-bottom: 2px solid white;
+		background: url('images/bullet_flower.png')bottom left no-repeat;
+		padding-left: 80px;
+		margin-top: 25px;
+	}
+	.main p.intern{
+		padding-left: 80px;
+		margin-top: 15px;
+		color: darkslategray;
+	}
+	.sidebar{		
+		padding:10px;
+		position:absolute;
+		right: 40px;
+		background-color: rgba( 255, 255, 255, 0.6 );
+
+	}
+	.sidebar h2{
+		color:lightsteelblue;
+	}
+	.sidebar p{
+		color: rosybrown;
+	}
